@@ -1,0 +1,10 @@
+checking file Wii/GXRender.cpp
+checking file Wii/GXUpload.h
+checking file Wii/OpaqueSpan.h
+checking file Wii/tests/TestGXBridge.py
+checking file Wii/tests/GXPreloadRowTests.cpp
+checking file Wii/tests/GXSpeedReference.cpp
+checking file Wii/tests/OpaqueSpanSpeedBenchmark.cpp
+checking file Wii/tests/OpaqueSpanSpeedReference.h
+checking file Wii/tests/run_gx_ge_speed_checks.py
+checking file gx-ge-speed-notes.md

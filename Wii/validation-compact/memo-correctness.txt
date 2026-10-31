@@ -1,0 +1,6 @@
+==11==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+==11==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+pass: vertex memo matches previous hits, eviction, payloads, misses, culling flags, reset, counter wrap and low-memory mode across five capacities
+host transform unit code bytes, previous 25326
+host transform unit code bytes, updated 25390
+g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0

@@ -1,0 +1,11 @@
+baseline
+   text	   data	    bss	    dec	    hex	filename
+  52417	    224	  52648	 105289	  19b49	/workspace/scratch/0f67f30da355/work/ppsspp-wii-interpreter/build-io-host/loop-probe-v2hv5ghl/baseline-raw.o
+
+updated
+   text	   data	    bss	    dec	    hex	filename
+  18189	  34464	   3432	  56085	   db15	/workspace/scratch/0f67f30da355/work/ppsspp-wii-interpreter/build-io-host/loop-probe-v2hv5ghl/updated-raw.o
+
+unfused
+   text	   data	    bss	    dec	    hex	filename
+  16342	  34464	   3432	  54238	   d3de	/workspace/scratch/0f67f30da355/work/ppsspp-wii-interpreter/build-io-host/loop-probe-v2hv5ghl/unfused-raw.o

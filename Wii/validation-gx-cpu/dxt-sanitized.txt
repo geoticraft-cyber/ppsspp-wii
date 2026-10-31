@@ -1,0 +1,33 @@
+==15==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+==15==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+pass: 3145728 exact DXT texels, all alpha endpoint pairs, equal/reversed color endpoints
+host dxt1 round 0 block 159.001 ms
+host dxt1 round 0 texel 16.175 ms
+host dxt1 round 1 texel 18.498 ms
+host dxt1 round 1 block 173.942 ms
+host dxt1 round 2 block 151.581 ms
+host dxt1 round 2 texel 17.424 ms
+host dxt1 round 3 texel 16.601 ms
+host dxt1 round 3 block 163.576 ms
+host dxt1 round 4 block 141.219 ms
+host dxt1 round 4 texel 15.591 ms
+host dxt3 round 0 block 205.530 ms
+host dxt3 round 0 texel 21.638 ms
+host dxt3 round 1 texel 24.178 ms
+host dxt3 round 1 block 237.762 ms
+host dxt3 round 2 block 219.995 ms
+host dxt3 round 2 texel 25.306 ms
+host dxt3 round 3 texel 22.172 ms
+host dxt3 round 3 block 211.864 ms
+host dxt3 round 4 block 211.462 ms
+host dxt3 round 4 texel 21.562 ms
+host dxt5 round 0 block 296.994 ms
+host dxt5 round 0 texel 122.907 ms
+host dxt5 round 1 texel 166.796 ms
+host dxt5 round 1 block 339.187 ms
+host dxt5 round 2 block 543.400 ms
+host dxt5 round 2 texel 76.318 ms
+host dxt5 round 3 texel 85.388 ms
+host dxt5 round 3 block 588.471 ms
+host dxt5 round 4 block 600.215 ms
+host dxt5 round 4 texel 74.400 ms

@@ -1,0 +1,4 @@
+pass: opaque.csv
+pass: bridge.log
+pass: bridge-gate.txt
+pass: 104 complete benchmark cells; medians saved in summary.csv

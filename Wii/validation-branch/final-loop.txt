@@ -1,0 +1,6 @@
+scalar baseline 18.032 ms, updated 17.948 ms, unfused 15.811 ms
+pairs_dense baseline 10.374 ms, updated 10.252 ms, unfused 15.267 ms
+pairs_sparse baseline 14.083 ms, updated 14.422 ms, unfused 14.497 ms
+lui_misses baseline 25.183 ms, updated 24.051 ms, unfused 15.997 ms
+vfpu baseline 82.448 ms, updated 82.965 ms, unfused 80.187 ms
+host only; raw data and object sizes are in build-io-host/interpreter-*

@@ -1,0 +1,2 @@
+$ python3 Wii/tests/TestPreparedBuffer.py
+pass: 2000000 prepared/reference addresses, RAM bounds, VRAM mirrors, scratch, null/misaligned, wide coordinates and pitches

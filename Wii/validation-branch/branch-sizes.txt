@@ -1,0 +1,8 @@
+baseline    text	   data	    bss	    dec	    hex	filename
+  18147	  34464	   3432	  56043	   daeb	../../cpu-candidates/baseline-tables.o
+
+0000000000000000 00000000000006d5 T MIPSInterpret(Memory::Opcode)
+updated    text	   data	    bss	    dec	    hex	filename
+  17977	  34464	   3432	  55873	   da41	../../cpu-candidates/updated-tables.o
+
+0000000000000000 00000000000006a5 T MIPSInterpret(Memory::Opcode)

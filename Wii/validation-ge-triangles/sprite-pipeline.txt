@@ -1,0 +1,2 @@
+$ python3 Wii/tests/TestSpritePipeline.py
+pass: 4000 exact complex sprite loops (32 pixels each), sequential texture feedback and aliased depth/color; formats, all depth predicates, depth writes, blend equations/factors, clamp, stencil preservation, VRAM wrap, bounds and fallback gates

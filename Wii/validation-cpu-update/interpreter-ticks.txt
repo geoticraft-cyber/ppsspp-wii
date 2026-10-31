@@ -1,0 +1,2 @@
+$ python3 Wii/tests/TestInterpreterTicks.py
+PASS: 400000 tick comparisons against actual GetTicks, including live slice/time/downcount changes

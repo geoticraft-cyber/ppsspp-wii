@@ -1,0 +1,3 @@
+==45==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+==45==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+pass: actual gx bridge with command mock: native self-tests, wrapped scanout, dirty flushes, guards, pending fences and timeout fallback

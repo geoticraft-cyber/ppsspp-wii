@@ -1,0 +1,2 @@
+pass: 2400 pattern clears against per-pixel reference, masks, negative starts, backing bounds, VRAM wrap, alignment and guards
+pass: 300 sprite uploads vs previous implementation, RGBA/native16, all change modes, exact changed-tile flush coverage, callbacks and guards

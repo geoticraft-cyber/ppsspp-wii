@@ -1,0 +1,3 @@
+==25==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+==25==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+pass: opaque span reference colors, all frame formats, preserved stencil, VRAM mirrors and rejected transfer preflight

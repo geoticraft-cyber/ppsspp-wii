@@ -1,0 +1,2 @@
+$ python3 Wii/tests/TestCPUFastPaths.py
+PASS: 120000 EXT/INS/WSBH/WSBW cases against original core handlers, zero register, aliasing, width-32 and invalid encodings

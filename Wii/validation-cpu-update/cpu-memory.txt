@@ -1,0 +1,4 @@
+$ python3 Wii/tests/TestCPUMemory.py --asan
+==285==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+==285==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+pass: 400000 raw COP1 loads/stores and 800000 aligned pointer comparisons; aliases, mirrors, partial RAM, null/scratch, page fallback, f0, NaN bits and live edits

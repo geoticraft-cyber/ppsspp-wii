@@ -1,0 +1,214 @@
+==17==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+==17==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+Failed to read controls.ini. Setting controller config to default.
+
+CreateFullPath: path exists ./test-memstick/PSP/SYSTEM/
+
+PPSSPP wii-libogc2-1.4-rc11-r3-interpreter-perf2-silent
+
+PSP RAM: reserved 33554432 bytes at 0x7fd2c9afa800 in MEM2
+
+PSP VRAM: 2097152 bytes in malloc heap (fallback)
+
+Memory system initialized. Base at 0x7fd2c9afa800 (RAM at @ 0x7fd2c9afa800, uncached @ 0x7fd2c9afa800)
+
+File is an ELF or loose PBP!
+
+CreateDir('')
+
+CreateDir: mkdir failed on : No such file or directory
+
+SMOK00900 : smoke.elf
+
+Kernel and user memory pools initialized
+
+CreateFullPath: path exists ./test-memstick/
+
+CreateFullPath: path exists ./test-memstick/PSP/PPSSPP_STATE
+
+Skipping PPGe UI initialization (gpuCore=2, frontend skips UI=1)
+
+Kernel initialized.
+
+String section: 3
+
+Prerelocated executable
+
+1 segments:
+
+Type: 00000001 Vaddr: 08804000 Filesz: 000000b4 Memsz: 000000b4 
+
+Loadable Segment Copied to 08804000, size 000000b4
+
+-----------
+
+Block: 08800000 - 08804000 size 00004000 taken=1 tag=usersystemlib
+
+Block: 08804000 - 08804100 size 00000100 taken=1 tag=ELF/WiiFramebufferSmoke
+
+Block: 08804100 - 0a000000 size 017fbf00 taken=0 tag=(untitled)
+
+-----------
+
+4 sections:
+
+NonData Section found: (null)     Ignoring (size=00000000) (flags=00000000)
+
+Data Section found: .text     Sitting at 08804000, size 0000002c
+
+Data Section found: .rodata.sceModuleInfo     Sitting at 08804080, size 00000034
+
+NonData Section found: .shstrtab     Ignoring (size=00000027) (flags=00000000)
+
+Relocations:
+
+Module WiiFramebufferSmoke: 00000000 00000000 00000000
+
+===================================================
+
+LOAD function analysis: 0 functions in 0.000 seconds
+
+Module entry: 08804000
+
+Unknown syscall: Module: (unknown) (module: 103 func: 4095)
+
+Block transfer: 08b00000/40 -> 08b00010/40, 32x32x2 (0,0)->(0,0)
+
+Block transfer: 08b00000/40 -> 08b10000/40, 32x32x2 (0,0)->(0,0)
+
+Block transfer: 08b00000/50 -> 08b00010/50, 32x32x2 (0,0)->(0,0)
+
+Block transfer: 08b00000/50 -> 08b10000/50, 32x32x2 (0,0)->(0,0)
+
+Block transfer: 08b00000/40 -> 08b00010/40, 64x32x2 (0,0)->(0,0)
+
+Block transfer: 08b00000/40 -> 08b10000/40, 64x32x2 (0,0)->(0,0)
+
+Block transfer: 08b00000/50 -> 08b00010/50, 64x32x2 (0,0)->(0,0)
+
+Block transfer: 08b00000/50 -> 08b10000/50, 64x32x2 (0,0)->(0,0)
+
+Block transfer: 08b00000/40 -> 08b00010/40, 32x32x4 (0,0)->(0,0)
+
+Block transfer: 08b00000/40 -> 08b10000/40, 32x32x4 (0,0)->(0,0)
+
+Block transfer: 08b00000/50 -> 08b00010/50, 32x32x4 (0,0)->(0,0)
+
+Block transfer: 08b00000/50 -> 08b10000/50, 32x32x4 (0,0)->(0,0)
+
+Block transfer: 08b00000/40 -> 08b00010/40, 64x32x4 (0,0)->(0,0)
+
+Block transfer: 08b00000/40 -> 08b10000/40, 64x32x4 (0,0)->(0,0)
+
+Block transfer: 08b00000/50 -> 08b00010/50, 64x32x4 (0,0)->(0,0)
+
+Block transfer: 08b00000/50 -> 08b10000/50, 64x32x4 (0,0)->(0,0)
+
+KO 272: Thread "idle0": pc= 08000000 sp= 083fff00  READY     (wt=0 wid=0 wv= 00000000 )
+
+KO 273: Thread "idle1": pc= 08000000 sp= 083fef00  READY     (wt=0 wid=0 wv= 00000000 )
+
+KO 274: Module "WiiFramebufferSmoke": name=WiiFramebufferSmoke gp=00000000 entry=08804000
+
+KO 275: Thread "root": pc= 08804000 sp= 09ffff00 RUN      (wt=0 wid=0 wv= 00000000 )
+
+Shutting down kernel - 4 kernel objects alive
+
+Merging Blocks
+
+Block Alloc found adjacent free blocks - merging
+
+Merging Blocks
+
+Block Alloc found adjacent free blocks - merging
+
+Merging Blocks
+
+Block Alloc found adjacent free blocks - merging
+
+Memory system shut down.
+
+PASS: disc read cache windows, short tail, EOF and uncached reads
+I: Config.cpp:427: Longest display side: 640 pixels. Choosing scale 1
+PASS: 160000 branch/jump dispatch comparisons: taken/untaken, likely annul, link, register alias and address wrap
+HOST dispatch mix: previous 106.761 ms, current 62.574 ms (not Wii FPS)
+pass: 61440 branch edge-state comparisons, signed extremes, equality, likely annul, delay slots, tick boundaries and address wrap
+pass: 36864 exhaustive VFPU selector/non-selector-bit comparisons
+pass: 1200000 random plus 65536 exhaustive COP1 selector/reference comparisons, including invalid encodings
+pass: 100000 COP1 transfers retain original handler behavior
+host VFPU decode only: previous 124.325 ms cached 105.917 ms (4000000 lookups; not complete execution)
+host cop1 decode round 0 old 147.373 ms
+host cop1 decode round 0 new 116.399 ms
+host cop1 decode round 1 new 143.887 ms
+host cop1 decode round 1 old 157.732 ms
+host cop1 decode round 2 old 147.814 ms
+host cop1 decode round 2 new 113.707 ms
+host cop1 decode round 3 new 119.975 ms
+host cop1 decode round 3 old 145.382 ms
+host cop1 decode round 4 old 166.827 ms
+host cop1 decode round 4 new 138.228 ms
+pass: actual interpreter loop preserves constant-pair, NOP and COP1 memory tick/trace boundaries and taken-branch delay slots
+pass: 120000 old/new complete CPU dispatches, memory, COP1 math/transfers/branches, FCR state, syscall delay slots, cycle charges and register clobbers; live opcode edits
+host cpu mix 0 round 0 old 286.193 ms
+host cpu mix 0 round 0 new 266.543 ms
+host cpu mix 0 round 1 new 267.928 ms
+host cpu mix 0 round 1 old 270.124 ms
+host cpu mix 0 round 2 old 266.075 ms
+host cpu mix 0 round 2 new 267.370 ms
+host cpu mix 0 round 3 new 271.356 ms
+host cpu mix 0 round 3 old 278.824 ms
+host cpu mix 0 round 4 old 272.851 ms
+host cpu mix 0 round 4 new 295.193 ms
+host cpu mix 1 round 0 old 482.651 ms
+host cpu mix 1 round 0 new 455.946 ms
+host cpu mix 1 round 1 new 451.385 ms
+host cpu mix 1 round 1 old 466.529 ms
+host cpu mix 1 round 2 old 476.103 ms
+host cpu mix 1 round 2 new 455.041 ms
+host cpu mix 1 round 3 new 464.685 ms
+host cpu mix 1 round 3 old 471.648 ms
+host cpu mix 1 round 4 old 466.973 ms
+host cpu mix 1 round 4 new 446.175 ms
+host cpu mix 2 round 0 old 396.667 ms
+host cpu mix 2 round 0 new 362.223 ms
+host cpu mix 2 round 1 new 360.691 ms
+host cpu mix 2 round 1 old 395.770 ms
+host cpu mix 2 round 2 old 396.910 ms
+host cpu mix 2 round 2 new 374.325 ms
+host cpu mix 2 round 3 new 400.174 ms
+host cpu mix 2 round 3 old 423.954 ms
+host cpu mix 2 round 4 old 411.503 ms
+host cpu mix 2 round 4 new 379.306 ms
+host cpu mix 3 round 0 old 453.737 ms
+host cpu mix 3 round 0 new 336.209 ms
+host cpu mix 3 round 1 new 394.042 ms
+host cpu mix 3 round 1 old 465.125 ms
+host cpu mix 3 round 2 old 441.882 ms
+host cpu mix 3 round 2 new 320.058 ms
+host cpu mix 3 round 3 new 346.284 ms
+host cpu mix 3 round 3 old 518.453 ms
+host cpu mix 3 round 4 old 458.078 ms
+host cpu mix 3 round 4 new 332.778 ms
+host cpu mix 4 round 0 old 267.752 ms
+host cpu mix 4 round 0 new 255.372 ms
+host cpu mix 4 round 1 new 257.252 ms
+host cpu mix 4 round 1 old 272.503 ms
+host cpu mix 4 round 2 old 271.033 ms
+host cpu mix 4 round 2 new 258.021 ms
+host cpu mix 4 round 3 new 252.417 ms
+host cpu mix 4 round 3 old 273.093 ms
+host cpu mix 4 round 4 old 275.105 ms
+host cpu mix 4 round 4 new 251.556 ms
+host cpu mix 5 round 0 old 286.387 ms
+host cpu mix 5 round 0 new 275.977 ms
+host cpu mix 5 round 1 new 278.059 ms
+host cpu mix 5 round 1 old 279.622 ms
+host cpu mix 5 round 2 old 308.931 ms
+host cpu mix 5 round 2 new 281.371 ms
+host cpu mix 5 round 3 new 284.132 ms
+host cpu mix 5 round 3 old 286.853 ms
+host cpu mix 5 round 4 old 290.584 ms
+host cpu mix 5 round 4 new 328.825 ms
+pass: import indexes preserve module/function numbers, duplicate-first behavior, missing exports and invalid module bounds
+host import lookup: linear 330.636 ms indexed 4.795 ms checksum 409338176 (synthetic 2049-export module)
+PASS: 16 actual GE TRANSFERSTART comparisons: packed/padded, 16/32 bit and sequential overlap

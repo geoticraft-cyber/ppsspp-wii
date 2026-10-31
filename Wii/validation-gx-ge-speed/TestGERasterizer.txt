@@ -1,0 +1,3 @@
+==25==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+==25==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+pass: 1800 complete old/new triangle draws, all formats, alpha/blend/depth/masks, stencil/logic fallbacks, secondary colors, filtered/compressed textures, feedback and aliased depth/color

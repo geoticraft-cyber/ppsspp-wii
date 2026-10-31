@@ -1,0 +1,1 @@
+pass: 80 CPU opaque texture spans, all five texture functions, four framebuffer formats, alpha modes, flipped/clipped UVs, VRAM wrap and stencil preservation

@@ -1,0 +1,84 @@
+baseline    text	   data	    bss	    dec	    hex	filename
+  74600	  28589	      0	 103189	  19315	/workspace/scratch/12e830329576/work/ppsspp-wii-interpreter/build-io-host/branch-vfpu-4zjz4odm/baseline-raw.o
+
+0000000000000000 0000000000001f02 T 
+updated    text	   data	    bss	    dec	    hex	filename
+  73447	  28749	      0	 102196	  18f34	/workspace/scratch/12e830329576/work/ppsspp-wii-interpreter/build-io-host/branch-vfpu-4zjz4odm/updated-raw.o
+
+0000000000000000 0000000000001a97 T 
+Failed to read controls.ini. Setting controller config to default.
+
+CreateFullPath: path exists ./test-memstick/PSP/SYSTEM/
+
+PPSSPP wii-libogc2-1.4-rc11-r3-interpreter-perf2-silent
+
+PSP RAM: reserved 33554432 bytes at 0x7f3130b13040 in MEM2
+
+PSP VRAM: 2097152 bytes in malloc heap (fallback)
+
+Memory system initialized. Base at 0x7f3130b13040 (RAM at @ 0x7f3130b13040, uncached @ 0x7f3130b13040)
+
+File is an ELF or loose PBP!
+
+CreateDir('')
+
+CreateDir: mkdir failed on : No such file or directory
+
+SMOK00900 : smoke.elf
+
+Kernel and user memory pools initialized
+
+CreateFullPath: path exists ./test-memstick/
+
+CreateFullPath: path exists ./test-memstick/PSP/PPSSPP_STATE
+
+Skipping PPGe UI initialization (gpuCore=2, frontend skips UI=1)
+
+Kernel initialized.
+
+String section: 3
+
+Prerelocated executable
+
+1 segments:
+
+Type: 00000001 Vaddr: 08804000 Filesz: 000000b4 Memsz: 000000b4 
+
+Loadable Segment Copied to 08804000, size 000000b4
+
+-----------
+
+Block: 08800000 - 08804000 size 00004000 taken=1 tag=usersystemlib
+
+Block: 08804000 - 08804100 size 00000100 taken=1 tag=ELF/WiiFramebufferSmoke
+
+Block: 08804100 - 0a000000 size 017fbf00 taken=0 tag=(untitled)
+
+-----------
+
+4 sections:
+
+NonData Section found: (null)     Ignoring (size=00000000) (flags=00000000)
+
+Data Section found: .text     Sitting at 08804000, size 0000002c
+
+Data Section found: .rodata.sceModuleInfo     Sitting at 08804080, size 00000034
+
+NonData Section found: .shstrtab     Ignoring (size=00000027) (flags=00000000)
+
+Relocations:
+
+Module WiiFramebufferSmoke: 00000000 00000000 00000000
+
+===================================================
+
+LOAD function analysis: 0 functions in 0.000 seconds
+
+Module entry: 08804000
+
+PASS: disc read cache windows, short tail, EOF and uncached reads
+I: Config.cpp:427: Longest display side: 640 pixels. Choosing scale 1
+pass: 100000 actual unary VFPU comparisons, all 16 ops, vector sizes, aliasing, prefixes, masks, raw IEEE payloads, full CPU/control state, host exceptions and errno
+PASS: 160000 branch/jump dispatch comparisons: taken/untaken, likely annul, link, register alias and address wrap
+HOST dispatch mix: previous 20.371 ms, current 14.544 ms (not Wii FPS)
+pass: actual interpreter loop preserves constant-pair, NOP and COP1 memory tick/trace boundaries and taken-branch delay slots

@@ -1,0 +1,7 @@
+portable core link passed 3269000
+Wrote /workspace/scratch/12e830329576/work/ppsspp-wii-interpreter/build-io-host/test-run/smoke.elf (736 bytes); expected framebuffer: red
+pass: io
+pass: smoke
+pass: dispatch
+pass: services
+pass: guest-waits

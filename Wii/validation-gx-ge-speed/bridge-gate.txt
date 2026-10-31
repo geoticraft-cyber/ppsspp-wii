@@ -1,0 +1,9 @@
+host command mock: 80 workloads, 11 alternating rounds, 12 sprites per sample
+lower medians: 63/80; this does not establish broad real-game benefit
+maximum regression: 5.822%
+logic 0: -3.52 to 1.17% less host mock time
+logic 3: -1.00 to 2.79% less host mock time
+logic 5: -0.45 to 0.33% less host mock time
+logic 12: -0.85 to 5.31% less host mock time
+logic 15: -1.75 to 1.31% less host mock time
+gate: PASS: every measured regression is below 8%

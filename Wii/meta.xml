@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<app version="1">
+  <name>PPSSPP Wii</name>
+  <coder>PPSSPP, Chatgpt 6.1 Sol</coder>
+  <version>0.803</version>
+  <short_description>PSP Emulator</short_description>
+  <long_description>the first psp emulator for the wii!</long_description>
+</app>

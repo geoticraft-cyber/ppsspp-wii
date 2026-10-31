@@ -1,0 +1,3 @@
+==13==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+==13==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+pass: 24576 exact GX preload rows, all formats, widths 1..512, partial tiles, unaligned input and guards

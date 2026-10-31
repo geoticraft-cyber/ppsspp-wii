@@ -1,0 +1,8 @@
+rebuild Core/HLE/scePower.cpp
+rebuild ext/native/gfx_es2/draw_buffer.cpp
+Wrote /workspace/scratch/0f67f30da355/work/ppsspp-wii-interpreter/build-io-host/test-run/smoke.elf (736 bytes); expected framebuffer: red
+pass: io
+pass: smoke
+pass: dispatch
+pass: services
+pass: guest-waits

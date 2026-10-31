@@ -1,0 +1,17 @@
+{
+  "checked_date_utc": "2026-10-22",
+  "libogc2": {
+    "url": "https://github.com/extremscorner/libogc2.git",
+    "branch": "master",
+    "commit": "5f8bf484952ba3bbeefe18ecd76569c94b498717",
+    "status": "Current remote master verified through GitHub. Matches r2487.5f8bf48 reported in the supplied log. Target SDK is not installed here."
+  },
+  "ppsspp": {
+    "url": "https://github.com/hrydgard/ppsspp.git",
+    "branch": "master",
+    "reviewed_commit": "47e67cb12214ed092c42fc00af421c3d86e19ce9",
+    "port_baseline_commit": "bdf60bfea40c0a8dfbc879d8731e265b835d845f",
+    "integration": "rc11 retains rc10 async I/O/HLE. Selected framebuffer-offset policy and God of War clock, null-page and recognized-function hooks adapted to the old software-GPU/PPC core. Not a core upgrade.",
+    "rc10_io_reviewed_commit": "ac8976fc7116dcf6da249c5fdd92c53e334bef1c"
+  }
+}

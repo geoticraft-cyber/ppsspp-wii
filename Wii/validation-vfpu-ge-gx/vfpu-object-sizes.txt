@@ -1,0 +1,10 @@
+   text	   data	    bss	    dec	    hex	filename
+  11295	      0	    136	  11431	   2ca7	/workspace/scratch/0f67f30da355/next-reference/previous-utils.o
+  12255	      0	    136	  12391	   3067	build-io-host/Core_MIPS_MIPSVFPUUtils.cpp.o
+previous
+0000000000000000 000000000000023e T _Z10ReadVectorPf10VectorSizei
+0000000000000000 0000000000000401 T _Z11WriteVectorPKf10VectorSizei
+updated
+0000000000000000 000000000000010d T _Z10ReadVectorPf10VectorSizei
+0000000000000000 0000000000000125 T _Z11WriteVectorPKf10VectorSizei
+0000000000000000 0000000000000800 r _ZN3WiiL15VFPUVectorLanesE

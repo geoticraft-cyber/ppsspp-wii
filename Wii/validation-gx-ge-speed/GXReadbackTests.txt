@@ -1,0 +1,3 @@
+==19==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+==19==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized
+pass: 1280 grouped readback/reference comparisons, all formats, partial tiles, color masks and stencil/guard preservation

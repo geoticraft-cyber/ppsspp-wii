@@ -1,0 +1,2 @@
+$ python3 Wii/tests/TestTriangleSampling.py
+pass: 1237944 fixed and 362056 dynamic sampling decisions, AUTO/CONST/SLOPE/unknown mode, mip limits, bias, min/mag/mip filters and overrides

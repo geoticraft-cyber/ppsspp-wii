@@ -1,0 +1,2 @@
+$ python3 Wii/tests/TestHiLo.py
+pass: 100000 actual core/fast HI/LO cases, modular oracle, signed accumulator overflow edges

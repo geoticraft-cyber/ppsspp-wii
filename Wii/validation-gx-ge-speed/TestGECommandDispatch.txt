@@ -1,0 +1,1 @@
+pass: all 256 GE commands match actual empty handlers; out-of-range rejected
